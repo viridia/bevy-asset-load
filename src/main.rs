@@ -120,7 +120,7 @@ fn setup(
 
 fn load_test_asset(mut commands: Commands, server: Res<AssetServer>) {
     commands.spawn(AssetHolder {
-        handle: server.load("example.json#templates/example"),
+        handle: server.load("example.json#example"),
     });
 }
 

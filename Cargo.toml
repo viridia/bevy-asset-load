@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.75"
-bevy = { git = "https://github.com/cart/bevy", features = ["dynamic_linking", "filesystem_watcher"], branch = "fix-hot-labels"}
+bevy = { git = "https://github.com/cart/bevy", features = ["filesystem_watcher"], branch = "error-missing-labels"}
 futures-lite = "1.13.0"
 serde = "1.0.188"
 serde_json = "1.0.106"

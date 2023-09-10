@@ -319,9 +319,8 @@ checksum = "9ba43ea6f343b788c8764558649e08df62f86c6ef251fdaeb1ffd010a9ae50a2"
 [[package]]
 name = "bevy"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
- "bevy_dylib",
  "bevy_internal",
 ]
 
@@ -339,7 +338,7 @@ dependencies = [
 [[package]]
 name = "bevy_a11y"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "accesskit",
  "bevy_app",
@@ -350,7 +349,7 @@ dependencies = [
 [[package]]
 name = "bevy_animation"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_app",
  "bevy_asset",
@@ -368,7 +367,7 @@ dependencies = [
 [[package]]
 name = "bevy_app"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_derive",
  "bevy_ecs",
@@ -383,7 +382,7 @@ dependencies = [
 [[package]]
 name = "bevy_asset"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "anyhow",
  "async-broadcast",
@@ -416,18 +415,18 @@ dependencies = [
 [[package]]
 name = "bevy_asset_macros"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_macro_utils",
  "proc-macro2",
  "quote",
- "syn 2.0.31",
+ "syn 2.0.32",
 ]
 
 [[package]]
 name = "bevy_audio"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_app",
  "bevy_asset",
@@ -445,7 +444,7 @@ dependencies = [
 [[package]]
 name = "bevy_core"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_app",
  "bevy_ecs",
@@ -459,7 +458,7 @@ dependencies = [
 [[package]]
 name = "bevy_core_pipeline"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_app",
  "bevy_asset",
@@ -479,17 +478,17 @@ dependencies = [
 [[package]]
 name = "bevy_derive"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_macro_utils",
  "quote",
- "syn 2.0.31",
+ "syn 2.0.32",
 ]
 
 [[package]]
 name = "bevy_diagnostic"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_app",
  "bevy_core",
@@ -501,17 +500,9 @@ dependencies = [
 ]
 
 [[package]]
-name = "bevy_dylib"
-version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
-dependencies = [
- "bevy_internal",
-]
-
-[[package]]
 name = "bevy_ecs"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "async-channel",
  "bevy_ecs_macros",
@@ -531,18 +522,18 @@ dependencies = [
 [[package]]
 name = "bevy_ecs_macros"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_macro_utils",
  "proc-macro2",
  "quote",
- "syn 2.0.31",
+ "syn 2.0.32",
 ]
 
 [[package]]
 name = "bevy_encase_derive"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_macro_utils",
  "encase_derive_impl",
@@ -551,7 +542,7 @@ dependencies = [
 [[package]]
 name = "bevy_gilrs"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_app",
  "bevy_ecs",
@@ -566,7 +557,7 @@ dependencies = [
 [[package]]
 name = "bevy_gizmos"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_app",
  "bevy_asset",
@@ -585,7 +576,7 @@ dependencies = [
 [[package]]
 name = "bevy_gltf"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "base64 0.13.1",
  "bevy_animation",
@@ -614,7 +605,7 @@ dependencies = [
 [[package]]
 name = "bevy_hierarchy"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_app",
  "bevy_core",
@@ -628,7 +619,7 @@ dependencies = [
 [[package]]
 name = "bevy_input"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_app",
  "bevy_ecs",
@@ -641,7 +632,7 @@ dependencies = [
 [[package]]
 name = "bevy_internal"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_a11y",
  "bevy_animation",
@@ -679,7 +670,7 @@ dependencies = [
 [[package]]
 name = "bevy_log"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "android_log-sys",
  "bevy_app",
@@ -694,18 +685,18 @@ dependencies = [
 [[package]]
 name = "bevy_macro_utils"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "quote",
  "rustc-hash",
- "syn 2.0.31",
+ "syn 2.0.32",
  "toml_edit",
 ]
 
 [[package]]
 name = "bevy_math"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "glam",
  "serde",
@@ -714,7 +705,7 @@ dependencies = [
 [[package]]
 name = "bevy_mikktspace"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "glam",
 ]
@@ -722,7 +713,7 @@ dependencies = [
 [[package]]
 name = "bevy_pbr"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_app",
  "bevy_asset",
@@ -746,12 +737,12 @@ dependencies = [
 [[package]]
 name = "bevy_ptr"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 
 [[package]]
 name = "bevy_reflect"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_math",
  "bevy_ptr",
@@ -771,20 +762,20 @@ dependencies = [
 [[package]]
 name = "bevy_reflect_derive"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_macro_utils",
  "bit-set",
  "proc-macro2",
  "quote",
- "syn 2.0.31",
+ "syn 2.0.32",
  "uuid",
 ]
 
 [[package]]
 name = "bevy_render"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "async-channel",
  "bevy_app",
@@ -830,18 +821,18 @@ dependencies = [
 [[package]]
 name = "bevy_render_macros"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_macro_utils",
  "proc-macro2",
  "quote",
- "syn 2.0.31",
+ "syn 2.0.32",
 ]
 
 [[package]]
 name = "bevy_scene"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_app",
  "bevy_asset",
@@ -861,7 +852,7 @@ dependencies = [
 [[package]]
 name = "bevy_sprite"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_app",
  "bevy_asset",
@@ -885,7 +876,7 @@ dependencies = [
 [[package]]
 name = "bevy_tasks"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "async-channel",
  "async-executor",
@@ -898,7 +889,7 @@ dependencies = [
 [[package]]
 name = "bevy_text"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "ab_glyph",
  "bevy_app",
@@ -919,7 +910,7 @@ dependencies = [
 [[package]]
 name = "bevy_time"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_app",
  "bevy_ecs",
@@ -932,7 +923,7 @@ dependencies = [
 [[package]]
 name = "bevy_transform"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_app",
  "bevy_ecs",
@@ -944,7 +935,7 @@ dependencies = [
 [[package]]
 name = "bevy_ui"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_a11y",
  "bevy_app",
@@ -973,7 +964,7 @@ dependencies = [
 [[package]]
 name = "bevy_utils"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "ahash 0.8.3",
  "bevy_utils_proc_macros",
@@ -989,17 +980,17 @@ dependencies = [
 [[package]]
 name = "bevy_utils_proc_macros"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.31",
+ "syn 2.0.32",
 ]
 
 [[package]]
 name = "bevy_window"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "bevy_app",
  "bevy_ecs",
@@ -1013,7 +1004,7 @@ dependencies = [
 [[package]]
 name = "bevy_winit"
 version = "0.12.0-dev"
-source = "git+https://github.com/cart/bevy?branch=fix-hot-labels#5d86d6408cafcfef772a9d54388e10e48e81d89e"
+source = "git+https://github.com/cart/bevy?branch=error-missing-labels#093e2cc95ee1091652df84cb9fcb5545223d0335"
 dependencies = [
  "accesskit_winit",
  "approx",
@@ -1147,7 +1138,7 @@ checksum = "965ab7eb5f8f97d2a083c799f3a1b994fc397b2fe2da5d1da1626ce15a39f2b1"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.31",
+ "syn 2.0.32",
 ]
 
 [[package]]
@@ -1465,7 +1456,7 @@ checksum = "3fe2568f851fd6144a45fa91cfed8fe5ca8fc0b56ba6797bfc1ed2771b90e37c"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.31",
+ "syn 2.0.32",
 ]
 
 [[package]]
@@ -1710,7 +1701,7 @@ dependencies = [
  "inflections",
  "proc-macro2",
  "quote",
- "syn 2.0.31",
+ "syn 2.0.32",
 ]
 
 [[package]]
@@ -2424,7 +2415,7 @@ dependencies = [
  "proc-macro-crate",
  "proc-macro2",
  "quote",
- "syn 2.0.31",
+ "syn 2.0.32",
 ]
 
 [[package]]
@@ -2834,7 +2825,7 @@ checksum = "4eca7ac642d82aa35b60049a6eccb4be6be75e599bd2e9adb5f875a737654af2"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.31",
+ "syn 2.0.32",
 ]
 
 [[package]]
@@ -2940,9 +2931,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "2.0.31"
+version = "2.0.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "718fa2415bcb8d8bd775917a1bf12a7931b6dfa890753378538118181e0cb398"
+checksum = "239814284fd6f1a4ffe4ca893952cdd93c224b6a1571c9a9eadd670295c0c9e2"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -3021,7 +3012,7 @@ checksum = "49922ecae66cc8a249b77e68d1d0623c1b2c514f0060c27cdc68bd62a1219d35"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.31",
+ "syn 2.0.32",
 ]
 
 [[package]]
@@ -3086,7 +3077,7 @@ checksum = "5f4f31f56159e98206da9efd823404b79b6ef3143b4a7ab76e67b1751b25a4ab"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.31",
+ "syn 2.0.32",
 ]
 
 [[package]]
@@ -3244,7 +3235,7 @@ dependencies = [
  "once_cell",
  "proc-macro2",
  "quote",
- "syn 2.0.31",
+ "syn 2.0.32",
  "wasm-bindgen-shared",
 ]
 
@@ -3278,7 +3269,7 @@ checksum = "54681b18a46765f095758388f2d0cf16eb8d4169b639ab575a8f5693af210c7b"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.31",
+ "syn 2.0.32",
  "wasm-bindgen-backend",
  "wasm-bindgen-shared",
 ]
