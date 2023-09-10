@@ -1,0 +1,13 @@
+[package]
+name = "bevy-asset-loading"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+bevy = { git = "https://github.com/cart/bevy", features = ["dynamic_linking", "filesystem_watcher"], branch = "fix-hot-labels"}
+futures-lite = "1.13.0"
+serde = "1.0.188"
+serde_json = "1.0.106"

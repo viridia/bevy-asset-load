@@ -1,0 +1,11 @@
+{
+  "type": "folder",
+  "example": {
+    "type": "item",
+    "text": "Hello"
+  },
+  "test": {
+    "type": "item",
+    "text": "Goodbye"
+  }
+}
